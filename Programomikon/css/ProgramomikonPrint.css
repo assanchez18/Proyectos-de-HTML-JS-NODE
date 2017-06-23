@@ -1,0 +1,25 @@
+/* Reglas CSS para versión de impresión */
+
+@import 'https://fonts.googleapis.com/css?family=Merriweather';
+body {
+  font-family: Merry weather;
+  font-size: 18;
+
+}
+
+#cabecera_derecha, #franja {
+  display: none;
+}
+
+#caracteristicas {
+  padding-left: 2%;
+  float: left;
+  width: 100%;
+  border-radius: 25px;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 2%;
+}
+h1{
+  font-size: 40;
+}

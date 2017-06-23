@@ -1,0 +1,116 @@
+/* Reglas CSS para versión en pantalla */
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+body {
+  font-family: Open Sans;
+  background-color: rgba(0, 0, 0, 0.93);
+  font-size: 15;
+  font-weight: bold;
+
+}
+
+#cabecera {
+  margin-top: 8px;
+  height: 20%;
+  background-image: url("../img/fondo_logo.png");
+}
+
+#cabecera_izquierda {
+  width: 50%;
+  float: left;
+}
+
+#cabecera_derecha {
+  width: 30%;
+  font-size: 15;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  margin-top: 4%;
+  float: right;
+}
+
+#franja {
+  height: 6%;
+  background-color: rgb(25, 75, 25);
+  color: white;
+}
+
+#texto {
+  float: left;
+  width: 15%;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+
+.boton {
+  float: left;
+  border-color: black;
+  height: 100%;
+  margin-right: 0%;
+  color: white;
+  background: linear-gradient(black, green);
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background: rgb(131, 217, 22);
+  color: black;
+  font-weight: bold;
+}
+
+.cuerpo {
+  margin-top: 1%;
+  background-image: url("../img/fondo_articulo.png");
+}
+
+h2.cuerpo {
+  color: green;
+  font-weight: bold;
+}
+
+.cuerpo h1 {
+  color: green;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.cuerpo h6 {
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.cuerpo p {
+  font-size: 16;
+  font-weight: normal;
+  margin-left: 20px;
+  text-align: left;
+}
+
+#articulo {
+  height: 100%;
+  width: 70%;
+  float: left!important;
+}
+
+.datos {
+  height: 70%;
+  width: 100%;
+}
+
+#caracteristicas {
+  height: 35%;
+  width: 25%;
+  background-image: url("../img/fondo_articulo.png");
+  float: right;
+  margin-right: 3%;
+}
+.cuerpo h2 {
+  color: green;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-top: 20px;
+}
