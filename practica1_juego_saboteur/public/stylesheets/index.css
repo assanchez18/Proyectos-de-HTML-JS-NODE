@@ -1,0 +1,37 @@
+body {
+
+  background-image: url("../images/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monospace;
+}
+
+#cabecera {
+  margin-top: 8px;
+  height: 20%;
+}
+
+#cabecera_izquierda {
+  width: 50%;
+  float: left;
+}
+
+#cabecera_derecha {
+  width: 30%;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 3%;
+  margin-right: 2%;
+  float: right;
+}
+
+#log_in {
+  border-radius: 10px;
+  opacity: 0.7;
+  width: 40%;
+  float: right;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-radius: 20;
+}
