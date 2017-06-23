@@ -1,0 +1,102 @@
+body {
+  font-family: Calibri;
+  text-align: justify;
+  max-width: 1000;
+  padding-left: 10px;
+  background-color: rgba(17, 77, 71, 0.38);
+}
+
+p {
+  font-size: 15;
+}
+
+.encabezado {
+  font-weight: bold;
+  font-size: 12;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(27, 64, 196, 0.86);
+}
+
+h1 {
+  font-size: 19;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style: disc;
+}
+
+th {
+  text-align: left;
+}
+
+tr {
+  text-indent: 10px;
+}
+
+ol {
+  list-style: decimal;
+  max-width: 700;
+}
+
+blockquote {
+  font-style: italic;
+}
+table{
+  border-collapse: collapse;
+}
+
+.sesion1 {
+  background-color: rgb(203, 70, 66);
+  text-align: center;
+}
+.sesion2 {
+  background-color: rgba(219, 223, 41, 0.75);
+  text-align: center;
+}
+.sesion3{
+  background-color: rgb(90, 111, 204);
+  text-align: center;
+}
+.sesion4 {
+  background-color: rgb(77, 230, 193);
+  text-align: center;
+}
+.sesion5 {
+  background-color: lightblue;
+  text-align: center;
+}
+.sesion6 {
+  background-color:purple;
+  text-align: center;
+}
+.sesion7{
+  background-color: lightgreen;
+  text-align: center;
+}
+.charla{
+  background-color: rgb(179, 126, 215);
+  text-align: center;
+}
+.asamblea{
+  background-color: rgb(70, 172, 68);
+  text-align: center;
+}
+.clausura{
+  background-color: orange;
+  text-align: center;
+}
+.visita{
+  background-color: pink;
+  text-align: center;
+}
+.programa {
+  text-align: center;
+  background-color: rgba(88, 91, 87, 0.75);
+}
